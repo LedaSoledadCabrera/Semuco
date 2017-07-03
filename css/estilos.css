@@ -62,8 +62,11 @@ footer {
   min-width: 100%;
   height: 500px;
 }
-.logoPrincipal{
-  height: 25%;
-  width: 25%;
-  margin: 20px;
+.logoPrincipal {
+    height: 25%;
+    width: 25%;
+    margin: 20px;
+}
+footer{
+    background-color: #607d8b;
 }
