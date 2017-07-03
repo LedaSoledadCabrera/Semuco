@@ -1,5 +1,7 @@
 *.class
-
+modules.xml
+Semuco.iml
+vcs.xml
 # Package Files #
 *.jar
 *.war
