@@ -20,7 +20,7 @@ body{
   color: red;
   font-size: 40px;
 }
-.h4 {
+.titulo h4 {
   font-family: 'average', cursive;
   background-color: rgba(255,255,255,0.5);
   text-decoration: underline;
@@ -69,4 +69,7 @@ footer {
 }
 footer{
     background-color: #607d8b;
+}
+.tabeada{
+    padding-left: 4%;
 }
