@@ -40,8 +40,8 @@ footer {
   * Estilos del carousel.
  */
 .carousel {
-  height: 500px;
-  margin-bottom: 60px;
+  width: 400px;
+  margin: auto;
 }
 .carousel-caption {
   z-index: 10;
