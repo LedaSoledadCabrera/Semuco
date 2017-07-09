@@ -55,15 +55,6 @@ footer {
   min-width: 100%;
   height: 500px;
 }
-.logoPrincipal {
-  height: 106px;
-  width: 190px;
-  margin-left: 1%;
-  position: absolute;
-  top: 0;
-  Z-INDEX: 9999;
-  left: 0;
-}
 footer{
     background-color: #59595C;
 }
@@ -74,9 +65,24 @@ firma{
     float: right;
 }
 img{
-  height: 400px;
-  width: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    height: 400px;
+    width: 400px;
 }
-.espaciadoArriba{
-  margin-top: 2%;
+.logosReferencia{
+    width: auto;
+    height: auto;
+}
+
+.logoPrincipal {
+    height: 106px;
+    width: 190px;
+    position: fixed;
+    top:0;
+    Z-INDEX: 1031;
+}
+.cabecera{
+    height: 106px;
+    background-color: #E31937;
 }
