@@ -8,7 +8,7 @@
   <meta name="author" content="Semuco">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title> Semuco </title>
   <link rel="stylesheet" href="css/estilos.css">
@@ -16,22 +16,18 @@
   <link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
 </head>
   <body>
-    <div class="cabecera">
-        <img src="images/logo.jpg" class="logoPrincipal">
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div>
+        <nav class="navbar navbar-default" id="navigation-red">
             <div class="container">
+                <a href="#"><img class="img-responsive img-square avatar" src="images/logo.jpg" alt="Avatar"></a>
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html">Semuco</a>
                 </div>
-                <div id="navbar" class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="obrasc.html">Obras Comerciales</a></li>
                         <li><a href="obrasi.html">Obras Industriales</a></li>
@@ -42,6 +38,7 @@
             </div>
         </nav>
     </div>
+
 
     <div class="espaciadoArriba titulo container">
 
@@ -118,13 +115,65 @@
 </div>
 
 </body>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                ©Copyleft Yti sos Gato. Algunos derechos reservados.
-            </div>
-        </div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+        <h3>Company<span>logo</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            ·
+            <a href="#">Blog</a>
+            ·
+            <a href="#">Pricing</a>
+            ·
+            <a href="#">About</a>
+            ·
+            <a href="#">Faq</a>
+            ·
+            <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">Company Name &copy; 2015</p>
     </div>
+
+    <div class="footer-center">
+
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>21 Revolution Street</span> Paris, France</p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+1 555 123456</p>
+        </div>
+
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">support@company.com</a></p>
+        </div>
+
+    </div>
+
+    <div class="footer-right">
+
+        <p class="footer-company-about">
+            <span>About the company</span>
+            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+    </div>
+
 </footer>
 </html>
