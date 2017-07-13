@@ -1,44 +1,52 @@
 .navbar{
-  background-color: #E31937;
+  background-color: #FFFFFF;
   border-color: #E31937;
     color: #000
+}
+.fondoRojo{
+    background-color: #E31937;
+}
+.logoBrasil{
+    width: 700px;
+    height: 123px;
 }
 body{
   background-size: 50%;
   background: white center;
 }
 .titulo h2 {
-  font-family: 'Average', cursive;
   color: red;
   display: inline-block;
 }
 .titulo h3 {
-  font-family: 'Average', cursive;
-  color: red;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: red;
 }
 .titulo h4 {
-  font-family: 'average', cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   background-color: rgba(255,255,255,0.5);
   text-decoration: underline;
 }
 .titulo p {
   background-color: rgba(255,255,255,0.5);
-  font-family: 'Average',cursive;
   margin: 20px;
 }
 .row h3 {
-  font-family: 'Average', cursive;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 footer {
   background-color: rgba(255,255,255,0.5);
   padding: 10px 0;
 }
-
+.thumbanailDeObras img{
+    width: 288px;
+    height: 216px;
+}
 /**
   * Estilos del carousel.
  */
 .carousel {
-  width: 400px;
+  width: 75%;
   margin: auto;
 }
 .carousel-caption {
@@ -74,6 +82,10 @@ img{
     width: auto;
     height: auto;
 }
+.logoChico{
+    height: 146px;
+    width: 190px;
+}
 
 .logoPrincipal {
     height: 106px;
@@ -85,6 +97,9 @@ img{
 .cabecera{
     height: 106px;
     background-color: #E31937;
+}
+.espaciadoArriba{
+    margin-top:2%;
 }
 /**
 FOOTER Y HEADER
@@ -258,46 +273,46 @@ FOOTER Y HEADER
     }
 
 }
-#navigation-red {
-    padding-bottom: 0px;
+#navigation-white {
+    padding-bottom: 0;
     margin: 0;
-    background-color: #E31937;
+    background-color: #FFFFFF;
     border: none;
     border-radius: 0;
 }
 
-#navigation-red .nav {
+#navigation-white .nav {
     margin-left: -15px;
 }
 
-#navigation-red .nav > li {
+#navigation-white .nav > li {
     border-bottom: 2px solid transparent;
     margin-bottom: 34px;
 }
 
-#navigation-red .nav > li:hover {
+#navigation-white .nav > li:hover {
     border-bottom-color: #fff;
 }
 
-#navigation-red .nav > li:focus {
+#navigation-white .nav > li:focus {
     background-color: transparent;
 }
 
-#navigation-red .nav > li > a {
+#navigation-white .nav > li > a {
     font-size: 18px;
     color: white;
 }
 
-#navigation-red .nav > li > a:hover,
-#navigation-red .nav > li > a:focus {
+#navigation-white .nav > li > a:hover,
+#navigation-white .nav > li > a:focus {
     background-color: transparent;
 }
 
-#navigation-red .navbar-collapse {
+#navigation-white .navbar-collapse {
     padding-top: 35px;
 }
 
-#navigation-red .avatar {
+#navigation-white .avatar {
     height: 121px;
     width: 150px;
     float: left;
@@ -305,29 +320,29 @@ FOOTER Y HEADER
     margin-right: 20px;
 }
 
-#navigation-red .icon-bar {
+#navigation-white .icon-bar {
     background-color: white;
 }
 
-#navigation-red .navbar-toggle {
+#navigation-white .navbar-toggle {
     border-color: white;
     float: right;
     margin-left: 25px;
     margin-top: 30px;
 }
 
-#navigation-red .navbar-toggle:hover,
-#navigation-red .navbar-toggle:focus {
+#navigation-white .navbar-toggle:hover,
+#navigation-white .navbar-toggle:focus {
     background-color: transparent;
 }
 
 @media screen and (max-width: 767px) {
 
-    #navigation-red .navbar-collapse {
+    #navigation-white .navbar-collapse {
         padding-top: 0;
     }
 
-    #navigation-red ul>li {
+    #navigation-white ul>li {
         float: left;
         clear: left;
         margin-left: 4px;
@@ -335,15 +350,15 @@ FOOTER Y HEADER
         margin-bottom: 5px !important;
     }
 
-    #navigation-red ul>li>a {
+    #navigation-white ul>li>a {
         padding-bottom: 2px;
     }
 
-    #navigation-red ul>li:hover {
+    #navigation-white ul>li:hover {
         border-bottom: 2px solid white;
     }
 
-    #navigation-red .avatar {
+    #navigation-white .avatar {
         height: 60px;
         margin-top: 18px;
         margin-bottom: 18px;

@@ -8,7 +8,7 @@
   <meta name="author" content="Semuco">
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title> Semuco </title>
   <link rel="stylesheet" href="css/estilos.css">
@@ -17,21 +17,20 @@
 </head>
   <body>
     <div>
-        <nav class="navbar navbar-default" id="navigation-red">
+        <nav class="navbar navbar-default" id="navigation-white">
             <div class="container">
                 <a href="#"><img class="img-responsive img-square avatar" src="images/logo.jpg" alt="Avatar"></a>
-                <div class="navbar-header">
+                <div class="navbar-header fondoRojo">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
+                <div class="collapse navbar-collapse fondoRojo" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li><a href="obrasc.html">Obras Comerciales</a></li>
-                        <li><a href="obrasi.html">Obras Industriales</a></li>
-                        <li><a href="obrase.html">Obras Ejecutadas</a></li>
+                        <li><a href="nosotros.html">La Empresa</a></li>
+                        <li><a href="obras.html">Obras</a></li>
                         <li><a href="contacto.html">Contacto y Referencias</a></li>
                     </ul>
                 </div>
@@ -41,31 +40,8 @@
 
 
     <div class="espaciadoArriba titulo container">
-
-
-        <h3>Una Nueva Concepcion de Servicio</h3>
-
-        <p>
-            SEMUCO INGENIERÍA S.A. es una empresa constructora y de servicios fundada por el Arq. ABEL BOTTA.
-            La trayectoria del mismo basada en más de  25 años  en el mercado de la construcción trabajando con los más
-            importantes referentes del rubro en Argentina, hizo posible que comparta las dificultades de los clientes para
-            RESOLVER la contratación de servicios en tiempos y forma con costos óptimos.<br>
-            Es por eso que impulsó la creación de un SERVIDOR MULTIDISCIPLINARIO DEL SECTOR al cual el contratante solo
-            tenga que hacer una requisitoria, y del otro lado reciba una SOLUCIÓN acorde a su necesidad.<br>
-            Si bien este no sea un CONCEPTO muy asimilado en el mercado argentino es utilizado de manera cotidiana
-            en otras partes del mundo con RESULTADOS EXITOSOS.
-        </p>
-        <div>
-            <div id="carousel" data-interval="3000" class="carousel slide" data-ride="carousel">
-                <!-- Carousel indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>
-                    <li data-target="#carousel" data-slide-to="3"></li>
-                    <li data-target="#carousel" data-slide-to="4"></li>
-                    <li data-target="#carousel" data-slide-to="5"></li>
-                </ol>
+        <div class="text-center">
+            <div id="carousel" data-interval="1500" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="images/obras1.jpg" alt="Obra">
@@ -83,35 +59,45 @@
                         <img src="images/obras5.jpg" alt="Obra">
                     </div>
                 </div>
-                <!-- Carousel controls -->
-                <a class="carousel-control left" href="#carousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                </a>
-                <a class="carousel-control right" href="#carousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                </a>
             </div>
         </div>
-        <h3>Principios que cimientan nuestra Prestacion de Servicio</h3>
-        <p>
-            Anticiparnos y satisfacer  las necesidades de los clientes, incentivando reuniones y/o visitas donde se nos
-          expresen sus futuras necesidades y las actuales no satisfechas. SERVIR CON ANTICIPACION <br>
-          Mostrar compromiso absoluto, haciéndole saber al cliente que de nuestro servicio lucramos, pero no de la
-          calidad que él pretende. SER AUTÉNTICOS.<br>
-          Personalizar el servicio, por más grande que sea la empresa siempre debe haber un lugar para comunicarse
-          en forma directa con el cliente y así hacerle saber que los directivos están presentes y le interesa el
-          cliente. NO SER ANÓNIMOS.<br>
-          Investigar en el mercado nacional e internacional los avances que puedan surgir en beneficio de una mejor
-          opción para el cliente sin que sea este quien deba buscarlo. SER INNOVADORES.<br>
-          El cliente debe recibir el servicio en tiempo y forma, para que no sienta indiferencia. SER ATENTOS Y
-          RESPETUOSOS.<br>
-          Mantener la confianza del cliente sin perder de vista que como se dijo al principio es el aspecto más
-          importante del servicio. SER CONFIABLES.
-        </p>
-
-        <firma>
-            <p>Arq. ABEL BOTTA Presidente</p>
-        </firma>
+        <div>
+            <h3>Obras realizadas</h3>
+            <div class="row">
+                <div class="thumbanailDeObras col-sm-6 col-md-4 col-6">
+                    <img src="images/obras1.jpg">
+                    <div>
+                        <p>
+                            Obra 1
+                        </p>
+                    </div>
+                </div>
+                <div class="thumbanailDeObras col-sm-6 col-md-4 col-6">
+                    <img src="images/obras2.jpg">
+                    <div>
+                        <p>
+                            Obra 2
+                        </p>
+                    </div>
+                </div>
+                <div class="thumbanailDeObras col-sm-6 col-md-4 col-6">
+                    <img src="images/obras3.jpg">
+                    <div>
+                        <p>
+                            Obra 3
+                        </p>
+                    </div>
+                </div>
+                <div class="thumbanailDeObras col-sm-6 col-md-4 col-6">
+                    <img src="images/obras4.jpg">
+                    <div>
+                        <p>
+                            Obra 4
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 </div>
 
 </body>
@@ -119,40 +105,32 @@
 
     <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+        <img src="images/logo.jpg" class="logoChico">
 
         <p class="footer-links">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             ·
-            <a href="#">Blog</a>
-            ·
-            <a href="#">Pricing</a>
-            ·
-            <a href="#">About</a>
-            ·
-            <a href="#">Faq</a>
-            ·
-            <a href="#">Contact</a>
+            <a href="contacto.html">Contactenos</a>
         </p>
 
-        <p class="footer-company-name">Company Name &copy; 2015</p>
+        <p class="footer-company-name">Semuco S.A &copy; 2017</p>
     </div>
 
     <div class="footer-center">
 
         <div>
             <i class="fa fa-map-marker"></i>
-            <p><span>21 Revolution Street</span> Paris, France</p>
+            <p><span>Berazategui</span> Buenos Aires, Argentina</p>
         </div>
 
         <div>
             <i class="fa fa-phone"></i>
-            <p>+1 555 123456</p>
+            <p> +54 11 4226 7271</p>
         </div>
 
         <div>
             <i class="fa fa-envelope"></i>
-            <p><a href="mailto:support@company.com">support@company.com</a></p>
+            <p><a href="mailto:contacto@semuco.com.ar">contacto@semuco.com.ar</a></p>
         </div>
 
     </div>
@@ -160,16 +138,17 @@
     <div class="footer-right">
 
         <p class="footer-company-about">
-            <span>About the company</span>
-            Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+            <span>Sobre nosotros</span>
+            SEMUCO S.A. es una empresa constructora y de servicios fundada por el Arq. ABEL BOTTA.
+            La trayectoria del mismo basada en más de 25 años en el mercado de la construcción trabajando con los
+            más importantes referentes del rubro en Argentina.
         </p>
 
-        <div class="footer-icons">
+        <div class="footer-icons text-center">
 
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fa fa-linkedin fa-lg"></i></a>
 
         </div>
 
