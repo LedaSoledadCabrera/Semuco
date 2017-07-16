@@ -372,3 +372,6 @@ FOOTER Y HEADER
 img{
     max-width: 700px;
 }
+.titulo img{
+    margin-bottom: 10px;
+}
