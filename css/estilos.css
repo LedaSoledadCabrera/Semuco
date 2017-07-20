@@ -7,7 +7,7 @@
     background-color: #E31937;
 }
 .logoCentral{
-    max-width: 50%;
+    max-width: 25%;
     height: auto;
 }
 body{
@@ -370,7 +370,7 @@ FOOTER Y HEADER
 }
 
 img{
-    max-width: 700px;
+    max-width: 100%;
 }
 .titulo img{
     margin-bottom: 10px;
